@@ -34,6 +34,7 @@ label.addEventListener("click", () => {
                 sm_view.classList.remove("show");
             } else {
                 cross_check();
+                body.style.overflow = "auto";
             }
         });
     });
