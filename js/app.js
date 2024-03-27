@@ -24,8 +24,8 @@ label.addEventListener("click", () => {
         second_line.classList.add("pos_changes_cross_2");
         body.style.overflow = "hidden";
     } else {
-        cross_check();
         body.style.overflow = "auto";
+        cross_check();
     }
 
     nav_items.forEach(element => {
