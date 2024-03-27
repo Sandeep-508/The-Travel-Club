@@ -41,19 +41,15 @@ label.addEventListener("click", () => {
 });
 
 let tabs = document.querySelectorAll(".text_content");
-
+let nav = document.querySelector(".text_content");
+nav.classList.add("td_underline");
 tabs.forEach(other => {
-    other.addEventListener("mouseover", () => {
-        other.classList.add("effect");
-    });
-    tabs.forEach(tab => {
-        tab.addEventListener("click", () => {
-            let text = window.getComputedStyle(tab).textDecoration;
-            if (text === "none") {
-                tab.style.textDecoration = "underline";
-            } else {
-                tab.style.textDecoration = "none";
+    other.addEventListener("click", () => {
+        tabs.forEach(otherelement => {
+            if (otherelement !== other) {
+                otherelement.classList.remove("td_underline");
             }
         });
+        other.classList.add("td_underline");
     });
 });

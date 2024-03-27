@@ -421,6 +421,22 @@ a {
     background: #FFFFFF0A;
 }
 
+.container_popular {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.container_deals {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 .header_back_img {
     background-image: url(../images/png/hero_section_img.png);
     background-size: cover;
@@ -556,6 +572,24 @@ a {
     gap: 30px;
 }
 
+.max_width_slider {
+    max-width: 367px;
+}
+
+.slider_item {
+    background: #1219D233;
+    border-radius: 13px;
+}
+
+.rounded_13px {
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+.gap_11px {
+    gap: 11px;
+}
+
 .pt_10px {
     padding-top: 10px;
 }
@@ -646,24 +680,19 @@ a {
     padding-bottom: 30px;
 }
 
-.effect {
-    position: relative;
+.random_image {
+    border: none;
+    border-radius: 10px;
 }
 
-.effect::before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 3px;
-    background: var(--btn-linear-dradient);
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    transition: all 400ms linear;
+.pb_106px {
+    padding-bottom: 106px;
 }
 
-.effect:hover::before {
-    width: 100%;
+
+
+.td_underline {
+    text-decoration: underline;
 }
 
 .hover_effect {
@@ -715,6 +744,7 @@ a {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+        cursor: pointer;
     }
 
     .menubar>span {
