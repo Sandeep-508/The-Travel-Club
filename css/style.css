@@ -686,6 +686,10 @@ a {
     width: 100%;
 }
 
+.-mt_2px {
+    margin-top: -2px;
+}
+
 .hover_effect:hover {
     -webkit-text-stroke: thin;
 }
@@ -776,6 +780,12 @@ a {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
+    }
+}
+
+@media (max-width: 1200px) {
+    .max_w_646px {
+        max-width: 646px;
     }
 }
 
