@@ -758,6 +758,10 @@ a {
     background-position: center;
 }
 
+.slider .slick-dots {
+    bottom: -95px !important;
+}
+
 .hover_opa_1:hover .image_hover {
     opacity: 1;
 }

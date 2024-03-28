@@ -534,10 +534,10 @@
         </section>
 
 
-        <section class="pt_50px">
+        <section class="pt_50px pb_180px">
             <p class="fw-400 fs-48 lh-56 text-white text-center pb_50px">Meet Our Team</p>
             <div class="container_deals">
-                <div class="slick-slider">
+                <div class="slider">
 
 
                     <div class="slider_item max_width_slider">
@@ -595,6 +595,52 @@
 
     <script>
         $('.slick-slider').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            prevArrow: false,
+            nextArrow: false,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            responsive: [
+                {
+                    breakpoint: 1130,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        autoplay: true,
+                        autoplaySpeed: 1000,
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        autoplay: true,
+                        autoplaySpeed: 1000,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        autoplay: true,
+                        autoplaySpeed: 1000,
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    </script>
+    <script>
+        $('.slider').slick({
             dots: true,
             infinite: true,
             speed: 300,
