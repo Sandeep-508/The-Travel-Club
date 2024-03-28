@@ -812,8 +812,6 @@ a {
     padding-bottom: 106px;
 }
 
-
-
 .td_underline {
     text-decoration: underline;
 }
@@ -890,7 +888,6 @@ a {
 .h_646px {
     height: 646px;
 }
-
 
 .ps_50px {
     padding-left: 50px;
@@ -1221,9 +1218,11 @@ a {
         font-size: var(--fs-30);
         line-height: var(--lh-36);
     }
+
+    .h_460px {
+        height: 460px;
+    }
 }
-
-
 
 @media (min-width: 576px) {
     .gap_143px {
