@@ -602,14 +602,6 @@ a {
     border-top-right-radius: 13px;
 }
 
-.slick-slide {
-    margin-left: 27px;
-}
-
-.slick-list {
-    margin-left: -27px;
-}
-
 .gap_11px {
     gap: 11px;
 }
@@ -778,13 +770,29 @@ a {
     height: 646px;
 }
 
+
+.ps_50px {
+    padding-left: 50px;
+}
+
+.gap_100px {
+    gap: 100px;
+}
+
+.gap_90px {
+    gap: 90px;
+}
+
+.gap_30px {
+    gap: 30px;
+}
+
 .box_take {
-    max-width: 582px;
+    width: 582px;
     min-height: 480px;
     gap: 0px;
     border-radius: 20.69px;
-    opacity: 0.2;
-    background: #1219D2;
+    background: rgba(18, 25, 210, 0.2);
 }
 
 .hover_effect:hover {
@@ -797,6 +805,60 @@ a {
 
 .pb_40px {
     padding-bottom: 40px;
+}
+
+.straight_line {
+    width: 6px;
+    min-height: 64px;
+    background-color: #696CDF;
+}
+
+.pt_30px {
+    padding-top: 30px;
+}
+
+.pt_50px {
+    padding-top: 50px;
+}
+
+.straight_line_2 {
+    width: 6px;
+    min-height: 64px;
+    background-color: #5C368A;
+}
+
+.pb_22px {
+    padding-bottom: 22px;
+}
+
+.layer_pos_adjust {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.layer_top_adjust {
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.pb_130px {
+    padding-bottom: 130px;
+}
+
+.pt_130px {
+    padding-top: 130px;
+}
+
+.straight_line_3 {
+    width: 6px;
+    min-height: 64px;
+    background-color: #E76E9A;
+}
+
+.h_170px {
+    min-height: 170px;
 }
 
 .slick-dots {
@@ -820,6 +882,14 @@ a {
 
 .slick-dots .slick-active {
     background-color: var(--slick-slider-dots-clr) !important;
+}
+
+.pt_50px {
+    padding-top: 50px;
+}
+
+.pb_31px {
+    padding-bottom: 31px;
 }
 
 .slick-dots li button {
@@ -941,6 +1011,15 @@ a {
     }
 }
 
+@media (min-width: 992px) {
+    .image_change {
+        max-width: 406px;
+        min-height: 406px;
+    }
+}
+
+
+
 @media (max-width: 575.9px) {
     .max_width {
         max-width: 220px;
@@ -964,5 +1043,49 @@ a {
 
     .mt_16px_max_sm {
         margin-top: 16px;
+    }
+
+    .image_change {
+        width: 100%;
+        height: 100%;
+    }
+
+    .gap_10px {
+        gap: 10px;
+    }
+
+    .gap_10px {
+        gap: 10px;
+    }
+
+    .gap_10px {
+        gap: 10px;
+    }
+
+    .ps_10px {
+        padding-left: 10px;
+    }
+
+    .gap_50px {
+        gap: 50px;
+    }
+
+    .md_fs_lh_travel {
+        font-size: var(--fs-30);
+        line-height: var(--lh-36);
+    }
+}
+
+@media (min-width: 576px) {
+    .slick-slide {
+        margin-left: 27px;
+    }
+
+    .slick-list {
+        margin-left: -27px;
+    }
+
+    .gap_143px {
+        gap: 143px;
     }
 }
