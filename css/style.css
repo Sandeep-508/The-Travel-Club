@@ -17,6 +17,7 @@
     --black-color: #000000;
     --primary-color: #140D1B;
     --footer-back-color: #010101;
+    --slick-slider-dots-clr: #1219D2;
     --btn-linear-dradient: linear-gradient(90deg, #1219D2 0%, #4E52B1 100%);
     /* font-family */
     --fm: "Poppins", sans-serif;
@@ -437,6 +438,14 @@ a {
     padding-right: 12px;
 }
 
+.container_takenomics {
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 .header_back_img {
     background-image: url(../images/png/hero_section_img.png);
     background-size: cover;
@@ -576,6 +585,13 @@ a {
     max-width: 367px;
 }
 
+.slick-slide>div {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+}
+
 .slider_item {
     background: #1219D233;
     border-radius: 13px;
@@ -586,8 +602,24 @@ a {
     border-top-right-radius: 13px;
 }
 
+.slick-slide {
+    margin-left: 27px;
+}
+
+.slick-list {
+    margin-left: -27px;
+}
+
 .gap_11px {
     gap: 11px;
+}
+
+.pt_160px {
+    padding-top: 160px;
+}
+
+.pb_50px {
+    padding-bottom: 50px;
 }
 
 .pt_10px {
@@ -715,8 +747,44 @@ a {
     width: 100%;
 }
 
+.image_hover {
+    max-width: 253px;
+    min-height: 44px;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    transition: all 400ms linear;
+    opacity: 0;
+    background: #01010140;
+}
+
+.takenomics_back_img {
+    background-image: url(../images/png/takenomics.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hover_opa_1:hover .image_hover {
+    opacity: 1;
+}
+
 .-mt_2px {
     margin-top: -2px;
+}
+
+.h_646px {
+    height: 646px;
+}
+
+.box_take {
+    max-width: 582px;
+    min-height: 480px;
+    gap: 0px;
+    border-radius: 20.69px;
+    opacity: 0.2;
+    background: #1219D2;
 }
 
 .hover_effect:hover {
@@ -731,9 +799,49 @@ a {
     padding-bottom: 40px;
 }
 
+.slick-dots {
+    background-color: transparent;
+    bottom: -65px !important;
+}
+
+.slick-dots li {
+    width: 25px !important;
+    height: 12px !important;
+    background-color: var(--color-white);
+    border-radius: 21px !important;
+}
+
+.slick-dots .slick-active {
+    background-color: var(--color-white);
+    width: 59px !important;
+    height: 12px !important;
+    border-radius: 21px !important;
+}
+
+.slick-dots .slick-active {
+    background-color: var(--slick-slider-dots-clr) !important;
+}
+
+.slick-dots li button {
+    display: none !important;
+}
 
 .pb_180px {
     padding-bottom: 180px;
+}
+
+.slider_image_hover {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    backdrop-filter: blur(10px);
+    opacity: 0;
+    background: #01010140;
+    transition: all 400ms linear;
+}
+
+.hover_apply:hover .slider_image_hover {
+    opacity: 1;
 }
 
 @media (max-width: 1024px) {
@@ -802,6 +910,14 @@ a {
         position: relative;
         top: 14px;
         left: 1px;
+    }
+
+    .line_pos::after {
+        bottom: 9px;
+    }
+
+    .image_hover {
+        max-width: 250px;
     }
 }
 
