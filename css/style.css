@@ -1231,6 +1231,16 @@ a {
     .h_460px {
         height: 460px;
     }
+
+    .max_sm_token {
+        font-size: var(--fs-21);
+        line-height: var(--lh-28);
+    }
+
+    .line_pos::after {
+        bottom: 5px;
+        height: 10px;
+    }
 }
 
 @media (min-width: 576px) {
