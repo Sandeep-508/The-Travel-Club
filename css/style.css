@@ -1191,6 +1191,16 @@ a {
         font-size: var(--fs-30);
         line-height: var(--lh-36);
     }
+
+    .max_sm_fs_lh {
+        font-size: var(--fs-16);
+        line-height: var(--lh-26);
+    }
+
+    .max_sm_fs_lh_disp_text {
+        font-size: var(--fs-14);
+        line-height: var(--lh-24);
+    }
 }
 
 @media (min-width: 576px) {
