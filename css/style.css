@@ -678,6 +678,7 @@ a {
 .slider_item {
     background: #1219D233;
     border-radius: 13px;
+    cursor: pointer;
 }
 
 
@@ -875,6 +876,10 @@ a {
     opacity: 1;
 }
 
+.hover_opa_1 {
+    cursor: pointer;
+}
+
 .ellipse_pos_adj_8 {
     position: absolute;
     top: 0;
@@ -1038,6 +1043,10 @@ a {
 
 .hover_apply:hover .slider_image_hover {
     opacity: 1;
+}
+
+.hover_apply {
+    cursor: pointer;
 }
 
 @media (max-width: 1024px) {
