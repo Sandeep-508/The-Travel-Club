@@ -475,9 +475,9 @@ a {
 
 .ellipse_pos_adj {
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
-    transform: translate(0, -15%);
+    transform: translate(0, 15%);
 }
 
 .ellipse_pos_adj_1 {
@@ -518,6 +518,45 @@ a {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.stars_pos_adjust {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.stars_pos_adjust_1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(10px, 50%);
+}
+
+.stars_pos_adjust_2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(10px, 100%);
+}
+
+.stars_pos_adjust_3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(10px, 50%);
+}
+
+.stars_pos_adjust_4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.stars_pos_adjust_5 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .footer_items:hover {
@@ -872,6 +911,10 @@ a {
     left: -10px !important;
 }
 
+.hover_opa_1:hover .hover_changes {
+    transform: scale(1.2);
+}
+
 .hover_opa_1:hover .image_hover {
     opacity: 1;
 }
@@ -1039,6 +1082,36 @@ a {
     opacity: 0;
     background: #01010140;
     transition: all 400ms linear;
+}
+
+.scroll_to_top {
+    bottom: 20px;
+    right: 20px;
+}
+
+.scroll_to_top {
+    display: none;
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.svg_box:hover {
+    background-color: var(--slick-slider-dots-clr);
+    transition: all 400ms linear;
+    transform: scale(0.8);
+}
+
+.scroll_to_top:hover .svg_top path {
+    stroke: var(--primary-color);
+}
+
+.svg_box {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--black-color);
 }
 
 .hover_apply:hover .slider_image_hover {
