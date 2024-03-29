@@ -1260,6 +1260,13 @@ a {
     }
 }
 
+@media (max-width: 992px) {
+    .fs_md_changes {
+        font-size: var(--fs-16);
+        line-height: var(--lh-24);
+    }
+}
+
 @media (max-width: 575.9px) {
     .max_width {
         max-width: 220px;
