@@ -112,3 +112,14 @@ gsap.from(".scroll_to_top", {
     y: 20,
     yoyo: true,
 });
+
+
+let loader = document.querySelector(".preloader");
+
+loader.classList.remove("opa_0");
+
+
+setTimeout(() => {
+    loader.classList.add("opa_0");
+    loader.classList.add("disp_none");
+}, 3000);
