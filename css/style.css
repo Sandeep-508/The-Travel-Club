@@ -1357,7 +1357,7 @@ a {
     }
 }
 
-@media (max-width: 992px) and (min-width: 576px) {
+@media (max-width: 991.9px) and (min-width: 576px) {
     .max_w_489px {
         width: 489px;
     }
