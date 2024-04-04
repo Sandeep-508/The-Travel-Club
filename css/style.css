@@ -415,9 +415,9 @@ a {
     text-decoration: none !important;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     display: none;
-}
+} */
 
 .w_h_title_img {
     width: 40px;
@@ -1161,7 +1161,7 @@ a {
 }
 
 .slick-current {
-    border: 1px solid rgba(18, 25, 210, 1);
+    /* border: 1px solid rgba(18, 25, 210, 1); */
     border-radius: 13px;
 }
 
