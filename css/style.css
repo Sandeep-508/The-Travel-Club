@@ -1160,8 +1160,8 @@ a {
     padding-top: 18px;
 }
 
-.slick-current {
-    /* border: 1px solid rgba(18, 25, 210, 1); */
+.slider .slick-current div {
+    border: 1px solid rgba(18, 25, 210, 1);
     border-radius: 13px;
 }
 
