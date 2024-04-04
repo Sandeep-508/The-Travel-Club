@@ -1396,4 +1396,9 @@ a {
         font-size: var(--fs-50);
         line-height: var(--lh-56);
     }
+
+    .fs_lorem_text {
+        font-size: var(--fs-14);
+        line-height: var(--lh-23);
+    }
 }
