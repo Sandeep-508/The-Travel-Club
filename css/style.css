@@ -1107,6 +1107,9 @@ a {
     opacity: 0;
 }
 
+/* .slider {
+    padding: 0 5% 0 5% !important;
+} */
 
 .slider_image_hover {
     position: absolute;
